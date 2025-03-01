@@ -11,12 +11,12 @@ import java.util.Properties;
 public class EmailSender {
     public static void main(String[] args) {
         // Recipient's email
-        String to = "govindafinch7@gmail.com";
+        String to = "recevieremail";
 
         // Sender's email
-        String from = "praveen.kumar_becse22@avit.ac.in";
-        final String username = "praveen.kumar_becse22@avit.ac.in"; // Change accordingly
-        final String password = "Pkumar2005@"; // Change accordingly
+        String from = "senderEmail";
+        final String username = "senderEmil"; // Change accordingly
+        final String password = "*********"; // Change accordingly
 
         // SMTP server details
         String host = "smtp.gmail.com"; // Change for other providers
